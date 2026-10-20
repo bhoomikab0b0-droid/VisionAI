@@ -1,10 +1,7 @@
 VisionAI: Giving Sight Through Sound – An
 AI-Powered Real-Time Assistive Navigation System
 for the Visually Impaired
-Nandini Patil, Bhoomika Babu
-Department of Computer Science and Engineering (AI)
-Manipal Institute of Technology, Bengaluru, India
-Emails: nandini.mitblr2023@learner.manipal.edu, bhoomika.mitblr2023@learner.manipal.edu
+
 Abstract—Millions of visually impaired individuals face chal-
 lenges in safe and independent navigation. VisionAI is a real-time
 assistive navigation system that leverages Artificial Intelligence
@@ -36,6 +33,8 @@ VisionAI addresses these limitations by combining visual
 intelligence (object detection and spatial reasoning) with
 adaptive AI decision-making to provide human-like guidance,
 making navigation intelligent rather than purely reactive.
+
+
 I. INTRODUCTION
 Visually impaired individuals depend heavily on auditory
 and tactile cues to interact with their surroundings. Traditional
@@ -53,12 +52,16 @@ AI-based perception using YOLOv8, computes spatial aware-
 ness, and generates voice-based navigation cues in real time.
 The solution is lightweight, cross-platform, and designed for
 consumer-level hardware.
+
+
 II. LITERATURE SURVEY
 Several AI-based assistive systems have been developed to
 enhance navigation for visually impaired individuals. Early
 systems relied on basic sensors, while recent solutions inte-
 grate computer vision and deep learning for intelligent scene
 interpretation.
+
+
 III. SYSTEM DESIGN AND METHODOLOGY
 A. Overview
 The architecture of VisionAI comprises five AI-centric
@@ -68,7 +71,6 @@ modules:
 3) Distance Estimation via bounding box geometry
 4) AI-Based Navigation Decision Engine
 5) Adaptive Audio Feedback Layer
-Fig. 1 illustrates the VisionAI system pipeline.
 B. Hardware and Software Setup
 The system operates on standard computing hardware with
 a connected camera and audio output device. It can also be
@@ -78,7 +80,6 @@ Software stack:
 • Ultralytics YOLOv8 for AI-based perception
 • OpenCV for visual processing
 • pyttsx3 or native OS speech engine for feedback
-Fig. 1. AI-driven system architecture of VisionAI.
 C. Object Detection and Perception
 The YOLOv8 nano model (yolov8n.pt) was selected
 for real-time inference on CPU-based systems. It identifies
@@ -113,9 +114,9 @@ based instructions via the local TTS engine. The feedback
 layer minimizes redundancy using temporal filters to prevent
 command overload and ensures the system remains context-
 aware.
-Fig. 2. AI-driven processing workflow of VisionAI.
+
+
 IV. CODE IMPLEMENTATION
-The system workflow is illustrated in Fig. 2.
 Algorithmic steps:
 1) Initialize camera and AI model.
 2) Capture frame and preprocess.
@@ -124,9 +125,11 @@ Algorithmic steps:
 5) Apply AI-based decision rules to generate movement
 guidance.
 6) Output adaptive audio feedback.
+
+
 V. RESULTS AND DISCUSSION
 
-![Image Description](Screenshot 2026-10-20 at 11.49.59 PM.png)
+![Project Performance Graph](Screenshot 2026-10-20 at 11.49.59 PM)
 
 
 A. Performance Evaluation
@@ -155,6 +158,8 @@ AI reasoning is constrained by lighting conditions and par-
 tial occlusion. Future enhancements may include multimodal
 fusion using LiDAR or stereo depth to enhance perception
 accuracy.
+
+
 VI. CONCLUSION AND FUTURE WORK
 This paper presents VisionAI, an AI-powered assistive nav-
 igation system that demonstrates visual perception, reasoning,
