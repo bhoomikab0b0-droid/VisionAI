@@ -129,7 +129,7 @@ guidance.
 
 V. RESULTS AND DISCUSSION
 
-![Project Performance Graph](Screenshot 2026-10-20 at 11:42 PM.png)
+![Project Performance Graph](performance_graph.png)
 
 
 A. Performance Evaluation
