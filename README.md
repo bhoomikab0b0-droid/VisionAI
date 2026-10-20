@@ -129,7 +129,7 @@ guidance.
 
 V. RESULTS AND DISCUSSION
 
-![Project Performance Graph](Screenshot 2026-10-20 at 11.49.59 PM)
+![Project Performance Graph]('/Users/bhoomika/Desktop/Screenshot 2026-10-20 at 11.49.59 PM.png')
 
 
 A. Performance Evaluation
